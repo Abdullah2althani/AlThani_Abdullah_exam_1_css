@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+button {
+  width: inherit;
+}
+
+/* navigation part  */
+.inline_Block {
+  display: flex;
+  background-color: #cbcbcb;
+  border-radius: 5px;
+}
+
+.nav_menu {
+  display: inline-flex;
+}
+
+.navlist li a {
+    text-decoration: none;
+    list-style: none;
+    color: #4e4c4d;
+  }
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.search {
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  padding: 5px;
+  vertical-align: middle;
+  float: right;
+}
+
+/* End navigation part  */
+
+.wrapper {
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+/* 1st block */
+.path {
+  background-color: #4e4c4d;
+  padding: 5px;
+  margin-top: -5px;
+  color: white;
+}
+
+.path li a {
+  text-decoration: none;
+  list-style: none;
+  color: cornflowerblue;
+}
+
+.path li a:first {
+  color: #cbcbcb;
+}
+
+.container{
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #eeeeee;
+}
+
+/* 2nd block start  */
+.card_featuers {
+  background-color: white;
+  padding: 40px;
+  border-style: ridge;
+}
+.card_featuers h1 {
+  display: inline;
+  color: #4e4c4d;
+}
+
+.card_featuers button{
+    float: right;
+    color: white;
+    padding: 10px 25px;
+    border: white;
+    background-color: #4C82A8;
+}
+.card_wrapper {
+  display: inline;
+}
+
+/* 1st card box  */
+.card_items {
+  width: 300px;
+  min-height: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+}
+
+.card_items p{
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.card_items button{
+    color: white;
+    padding: 10px;
+    background-color: #4C82A8;
+    border: white;
+}
+
+.card_items img {
+  display: block;
+  width: inherit;
+  margin: 10px 0px;
+}
+
+/* card head */
+.card_header {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+}
+
+.card_header img {
+  margin: 5px;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
+
+.liny {
+  padding: 10px;
+}
+
+.footer{
+    background-color: white;
+}
+.footer_menu ul {
+  display: block;
+}
+
+.footer_menu ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+.footer_menu li a {
+  text-decoration: none;
+  list-style: none;
+  color: #4e4c4d;
+}
+
+.footer_card_items {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  vertical-align: top;
+  min-width: 180px;
+}
+
+.fot p {
+  padding: 10px;
+  margin: 10px;
+}
